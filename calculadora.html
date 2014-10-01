@@ -1,12 +1,23 @@
 <html>
 	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			function sumar(){
+				var numeroA = $("#numeroA").val();
+				var numeroB = $("#numeroB").val();
+				var resultado =parseInt( numeroA ) + parseInt(numeroB);
+				$("#resultado").val(resultado);
+			}
+		</script>
 	</head>
 	<body>
 		<h1>Calculadora</h1>
 		<h2>Suma 2 n&uacute;meros</h2>
 		<br>
-		<<input type="text" id="numeroA" />
-		<<input type="text" id="numeroB" />
-
+		<input type="text" id="numeroA" />+
+		<input type="text" id="numeroB" />=
+		<input type="text" id="resultado" />
+		<br><button onClick="sumar()">Calcular</button>
 	</body>
 </html>
