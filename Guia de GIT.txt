@@ -1,0 +1,179 @@
+-Carlos Creo el repo
+-Carlos hizo el Push inicial de un HTML
+	-Raul lo clono el master (HEAD)
+
+
+		-git checkout -b FIX para crear un branch local
+			-Agregaste funcionalidad
+			-git add/commit
+		-git push origin HEAD para subir mi nuevo branch local al repo
+	-git checkout master se regreso al master
+	-git merge FIX para fusional lo del branch con el master
+	-git push para actualizar el master del repo
+
+Windows PowerShell
+Copyright (C) 2012 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Leonidas\Documents\GitHub [master]> cd ..\Projects\Miercoles01
+C:\Users\Leonidas\Documents\Projects\Miercoles01> git clone https://gith
+Cloning into 'calculadora'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0)
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+C:\Users\Leonidas\Documents\Projects\Miercoles01> ls
+
+
+    Directorio: C:\Users\Leonidas\Documents\Projects\Miercoles01
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----     01/10/2014  06:10 p. m.            calculadora
+
+
+C:\Users\Leonidas\Documents\Projects\Miercoles01> git status
+fatal: Not a git repository (or any of the parent directories): .git
+C:\Users\Leonidas\Documents\Projects\Miercoles01> cd .\calculadora
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+Already up-to-date.
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+Switched to a new branch 'origin/FIX_HTML'
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+On branch origin/FIX_HTML
+nothing to commit, working directory clean
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+On branch origin/FIX_HTML
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directo
+
+        modified:   calculadora.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+do uma de dos numeros"
+[origin/FIX_HTML f225a68] Se ha implementado uma de dos numeros
+ 1 file changed, 14 insertions(+), 3 deletions(-)
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+On branch origin/FIX_HTML
+nothing to commit, working directory clean
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+remote: Permission to carlos-teolotitla/calculadora.git denied to fb5639
+fatal: unable to access 'https://github.com/carlos-teolotitla/calculador
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+remote: Permission to carlos-teolotitla/calculadora.git denied to fb5639
+fatal: unable to access 'https://github.com/carlos-teolotitla/calculador
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+fatal: The current branch origin/FIX_HTML has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin origin/FIX_HTML
+
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+remote: Permission to carlos-teolotitla/calculadora.git denied to fb5639
+fatal: unable to access 'https://github.com/carlos-teolotitla/calculador
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+fatal: The current branch origin/FIX_HTML has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream HEAD origin/FIX_HTML
+
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+fatal: The current branch origin/FIX_HTML has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin origin/FIX_HTML
+
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+fatal: The current branch origin/FIX_HTML has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin origin/FIX_HTML
+
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+Updating 5a50e2a..f225a68
+Fast-forward
+ calculadora.html | 17 ++++++++++++++---
+ 1 file changed, 14 insertions(+), 3 deletions(-)
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+remote: Permission to carlos-teolotitla/calculadora.git denied to fb5639
+fatal: unable to access 'https://github.com/carlos-teolotitla/calculador
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+remote: Permission to carlos-teolotitla/calculadora.git denied to fb5639
+fatal: unable to access 'https://github.com/carlos-teolotitla/calculador
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 573 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/carlos-teolotitla/calculadora.git
+   5a50e2a..f225a68  master -> master
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+Switched to branch 'origin/FIX_HTML'
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+On branch origin/FIX_HTML
+nothing to commit, working directory clean
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+On branch origin/FIX_HTML
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directo
+
+        modified:   calculadora.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+exto del boton"
+>>
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+exto del boton'
+[origin/FIX_HTML 52baf74] Se modifico el texto del boton
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+On branch origin/FIX_HTML
+nothing to commit, working directory clean
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/carlos-teolotitla/calculadora.git
+ * [new branch]      HEAD -> origin/FIX_HTML
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [origin/FIX
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+Updating f225a68..52baf74
+Fast-forward
+ calculadora.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]> g
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/carlos-teolotitla/calculadora.git
+   f225a68..52baf74  master -> master
+C:\Users\Leonidas\Documents\Projects\Miercoles01\calculadora [master]>
