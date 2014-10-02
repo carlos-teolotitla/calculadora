@@ -8,6 +8,16 @@
 				var numeroB = $("#numeroB").val();
 				var resultado =parseInt( numeroA ) + parseInt(numeroB);
 				$("#resultado").val(resultado);
+				}
+			
+			function restar(){
+				var numeroC = $("#numeroC").val();
+				var numeroD = $("#numeroD").val();
+				var resultado =parseInt( numeroC ) - parseInt(numeroD);
+				$("#resultado2").val(resultado);
+
+
+
 			}
 		</script>
 	</head>
@@ -19,5 +29,14 @@
 		<input type="text" id="numeroB" />=
 		<input type="text" id="resultado" />
 		<br><button onClick="sumar()">Calcular Suma</button>
+
+		<h2>Resta de 2 n&uacute;meros</h2>
+		<br>
+		<input type="text" id="numeroC" />-
+		<input type="text" id="numeroD" />=
+		<input type="text" id="resultado2" />
+		<br><button onClick="restar()">Calcular Resta</button>
+
+
 	</body>
 </html>
