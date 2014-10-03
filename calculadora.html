@@ -22,6 +22,13 @@
 				var numeroF = $("#numeroF").val();
 				var resultado =parseInt( numeroE ) * parseInt(numeroF);
 				$("#resultado3").val(resultado);
+				}
+
+			function division(){
+				var numeroG = $("#numeroG").val();
+				var numeroH = $("#numeroH").val();
+				var resultado =parseInt( numeroG ) / parseInt(numeroH);
+				$("#resultado4").val(resultado);
 
 
 	
@@ -51,6 +58,13 @@
 		<input type="text" id="numeroF" />=
 		<input type="text" id="resultado3" />
 		<br><button onClick="Multiplicacion()">Calcular Multiplicacion</button>
+
+		<h2>Division de 2 n&uacute;meros</h2>
+		<br>
+		<input type="text" id="numeroG" />/
+		<input type="text" id="numeroH" />=
+		<input type="text" id="resultado4" />
+		<br><button onClick="division()">Calcular Division</button>
 
 		
 
