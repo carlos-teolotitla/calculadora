@@ -15,8 +15,16 @@
 				var numeroD = $("#numeroD").val();
 				var resultado =parseInt( numeroC ) - parseInt(numeroD);
 				$("#resultado2").val(resultado);
+			}
+
+			function Multiplicacion(){
+				var numeroE = $("#numeroE").val();
+				var numeroF = $("#numeroF").val();
+				var resultado =parseInt( numeroE ) * parseInt(numeroF);
+				$("#resultado3").val(resultado);
 
 
+	
 
 			}
 		</script>
@@ -36,6 +44,15 @@
 		<input type="text" id="numeroD" />=
 		<input type="text" id="resultado2" />
 		<br><button onClick="restar()">Calcular Resta</button>
+
+		<h2>Multiplicacion de 2 n&uacute;meros</h2>
+		<br>
+		<input type="text" id="numeroE" />*
+		<input type="text" id="numeroF" />=
+		<input type="text" id="resultado3" />
+		<br><button onClick="Multiplicacion()">Calcular Multiplicacion</button>
+
+		
 
 
 	</body>
